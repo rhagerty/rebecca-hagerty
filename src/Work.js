@@ -35,9 +35,7 @@ function Work() {
             <img src={kwm} className="workImage" />
           </div>
         </Fade>
-      </div>
 
-      <div className="row projMain">
         <Fade
           left={isDesktop}
           bottom={isMobile}
@@ -45,14 +43,14 @@ function Work() {
           delay={1000}
           distance="30px"
         >
-          <div className="col-md-12 col-sm-12 project-content">
+          <div className="project-content">
             <p className="subtitle">Featured Project</p>
             <h2 className="projectTitle">Accounting Firm Website</h2>
             <div className="projDescription">
               <ul className="descriptionList">
                 <li>
                   <FontAwesomeIcon icon={faCaretRight} /> Designed, wireframed,
-                  and developed site layout, content, and branding materials
+                  and developed responsive site layout, content, and branding materials
                   with
                   <span className="special">
                     special attention paid to accessibility standards and layout
@@ -82,13 +80,11 @@ function Work() {
 
       <div className="row projMain">
         <Fade bottom duration={1000} delay={600} distance="30px">
-          <div className="col-md-12 col-sm-12 project-imageR">
+          <div className="col-md-12 col-sm-12 project-image">
             <img src={TaskPlanner} className="workImage workImageR" />
           </div>
         </Fade>
-      </div>
-
-      <div className="row projMain">
+   
         <Fade
           left={isDesktop}
           bottom={isMobile}
@@ -96,7 +92,7 @@ function Work() {
           delay={1000}
           distance="30px"
         >
-          <div className="col-md-12 col-sm-12 project-content">
+          <div className="project-content">
             <p className="subtitleL">Featured Project</p>
             <h2 className="projectTitleL">
               Neurodivergent Task Planner Web App
@@ -114,6 +110,7 @@ function Work() {
               <ul className="techList">
                 <li>React</li>
                 <li>Node</li>
+                <li>Styled Components</li>
                 <li>VSCode</li>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -135,9 +132,7 @@ function Work() {
             <img src={MSS} className="workImage" />
           </div>
         </Fade>
-      </div>
 
-      <div className="row projMain">
         <Fade
           left={isDesktop}
           bottom={isMobile}
@@ -145,7 +140,7 @@ function Work() {
           delay={1000}
           distance="30px"
         >
-          <div className="col-md-12 col-sm-12 project-content">
+          <div className="project-content">
             <p className="subtitle">Featured Project</p>
             <h2 className="projectTitle">Online Solar Store</h2>
             <div className="projDescription">
@@ -158,7 +153,7 @@ function Work() {
                 </li>
               </ul>
             </div>
-            <br/>
+            <br />
             <div className="projTech">
               <ul className="techList">
                 <li>Wix</li>
@@ -176,7 +171,7 @@ function Work() {
           </div>
         </Fade>
       </div>
-      
+
       <Fade
         left={isDesktop}
         bottom={isMobile}
@@ -227,6 +222,8 @@ function Work() {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Bootstrap</li>
+                <li>Rest API</li>
+                <li>Heroku</li>
               </ul>
             </div>
           </div>

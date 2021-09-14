@@ -30,13 +30,19 @@ function Hero() {
           delay={500}
           distance="30px"
         >
+          <span className="title-intro">{"Hi, my name is"} </span>
           <h1 className="hero-title">
-            {"Hi, my name is"}{" "}
-            <span className="text-color-main">{"Becca Hagerty."}</span>
+            {"Becca Hagerty."}
             <br />
-            {"I build things for the web."}
+            <span className="text-color-main">
+              {"I build things for the web."}
+            </span>
           </h1>
-          <p className="heroP"></p>
+          <p className="heroP">
+            I’m a software engineer specializing in building (and occasionally
+            designing) exceptional digital experiences. Currently, I’m focused
+            on building accessible, human-centered products
+          </p>
         </Fade>
         <Fade
           left={isDesktop}

@@ -20,7 +20,7 @@ export default function Experience() {
           contentStyle={{ background: "#00cdac", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #00cdac" }}
           date="June 2021 - present"
-          iconStyle={{ background: "#00cdac", color: "#fff" }}
+          iconStyle={{ background: "#00cdac", color: "#fff", paddingLeft: "5px"  }}
           icon={<FontAwesomeIcon icon={faJs} />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -78,9 +78,9 @@ export default function Experience() {
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="vertical-timeline-element"
           date="March 2021 - Sept 2021"
-          iconStyle={{ background: "#78C7BF", color: "#fff" }}
+          iconStyle={{ background: "#78C7BF", color: "#fff", paddingLeft: "6px"  }}
           contentStyle={{ background: "#78C7BF", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #78C7BF" }}
           icon={<FontAwesomeIcon icon={faHtml5} />}
@@ -99,11 +99,11 @@ export default function Experience() {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
+          className="vertical-timeline-element"
           date="June 2017 - April 2019"
           contentArrowStyle={{ borderRight: "7px solid  #84C6C1" }}
           contentStyle={{ background: "#84C6C1", color: "#fff" }}
-          iconStyle={{ background: "#84C6C1", color: "#fff" }}
+          iconStyle={{ background: "#84C6C1", color: "#fff", paddingLeft: "8px" }}
           icon={<FontAwesomeIcon icon={faFileExcel} />}
         >
           <h3 className="vertical-timeline-element-title">Process Engineer</h3>
@@ -114,20 +114,7 @@ export default function Experience() {
             <Badge>SAP</Badge>
           </ul>
         </VerticalTimelineElement>
-        {/* <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="November 2012"
-          contentArrowStyle={{ borderRight: "7px solid  #9CC5C4" }}
-          contentStyle={{ background: "#9CC5C4", color: "#fff" }}
-          iconStyle={{ background: "#9CC5C4", color: "#fff" }}
-          icon={<FontAwesomeIcon icon={faLinkedin} />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Agile Development Scrum Master
-          </h3>
-          <h5 className="vertical-timeline-element-subtitle">Certification</h5>
-          <p>Creative Direction, User Experience, Visual Design</p>
-        </VerticalTimelineElement> */}
+
       </VerticalTimeline>
     </div>
   );

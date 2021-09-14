@@ -5,8 +5,8 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function StickyLeftNav() {
   return (
-    <div className="socialIconsWrapper">
-      <ul className="socialIcons">
+    <div className="social-icons-wrapper">
+      <ul className="social-icons">
         <li>
           <Link to="https://github.com/rhagerty">
             <FontAwesomeIcon icon={faGithub} />
