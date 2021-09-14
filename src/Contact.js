@@ -30,7 +30,7 @@ const Contact = () => {
             distance="30px"
           >
             <p className="contact-wrapper__info-text">
-              I'm currently open to select web development and UX researcher opportunities. Feel free
+              I'm currently open to web development, design and UX researcher opportunities. Feel free
               to <a href="mailto:rhagertydevelopment@gmail.com">reach out</a>{" "}
               and I'll respond as soon as I'm able. I look forward to hearing
               from you!

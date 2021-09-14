@@ -30,18 +30,18 @@ function Hero() {
           delay={500}
           distance="30px"
         >
-          <span className="title-intro">{"Hi, my name is"} </span>
+          <span className="title-intro">{"Hi! My name is"} </span>
           <h1 className="hero-title">
             {"Becca Hagerty."}
             <br />
             <span className="text-color-main">
-              {"I build things for the web."}
+              {"I build things for computers."}
             </span>
           </h1>
           <p className="heroP">
-            I’m a software engineer specializing in building (and occasionally
+            I’m a software engineer specializing in researching, building (and occasionally
             designing) exceptional digital experiences. Currently, I’m focused
-            on building accessible, human-centered products
+            on building accessible, human-centered solutions with a positive societal impact.
           </p>
         </Fade>
         <Fade
@@ -54,12 +54,12 @@ function Hero() {
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Button
-                href="/about"
+                href="#about"
                 smooth
                 duration={1000}
                 className="theme-btn"
               >
-                {"Know more"}
+                {"Learn More About Me"}
               </Button>
             </span>
           </p>

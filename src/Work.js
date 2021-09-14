@@ -22,7 +22,7 @@ function Work() {
     }
   }, []);
   return (
-    <div className="work container">
+    <div className="work container" id="work">
       <h1 className="sectionNum">03. </h1>
       <h1 className="sectionTitle"> Some Things I've Built</h1>
 

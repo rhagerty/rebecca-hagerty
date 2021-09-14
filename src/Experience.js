@@ -11,7 +11,7 @@ import { faFileExcel } from "@fortawesome/free-solid-svg-icons";
 
 export default function Experience() {
   return (
-    <div className="experience">
+    <div className="experience" id="experience">
       <h1 className="sectionNum">02.</h1>
       <h1 className="sectionTitle"> Experience</h1>
       <VerticalTimeline>

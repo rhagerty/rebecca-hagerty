@@ -3,6 +3,10 @@ body {
   background-color: rgb(5, 17, 34);
 }
 
+.app {
+  max-width: 1300px;
+}
+
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -14,10 +18,15 @@ body {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(100, 255, 218, 0.5);
+  background-color: #64ffda;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 10, 0.5);
 }
 
 /* Navigation */
+
+.main-navbar {
+  margin-top: 10px;
+}
 
 .navbar-collapse {
   font-family: "Roboto Mono", monospace;
@@ -34,7 +43,7 @@ body {
 }
 
 #logo {
-  width: 60px;
+  width: 55px;
 }
 .nav-link {
   color: #c0c2c9;
@@ -74,13 +83,15 @@ body {
 }
 
 .hero {
-  margin: 20vh auto;
+  margin: 17vh 3rem;
 }
 
 .heroP {
   color: #c0c2c9;
   max-width: 600px;
-  padding: 5px 0;
+  padding: 1rem 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 .hero-title {
@@ -88,18 +99,18 @@ body {
   font-weight: 700;
   text-align: left;
   padding: 10px 0;
-  color: #64ffda;
-  letter-spacing: 1.2;
+  color: #c0c2c9;
+  letter-spacing: -1px;
 }
 
 .title-intro {
-  color: #c0c2c9;
+  color: #64ffda;
   font-family: "Roboto Mono", monospace;
-  font-weight: 300;
 }
 
 .text-color-main {
-  color: rgba(192, 194, 201, 0.747);
+  color: #8c8e96;
+  letter-spacing: -2px;
 }
 
 h1,
@@ -116,8 +127,8 @@ h6 {
   color: #64ffda;
   border-width: 2px;
   border-style: solid;
-  -o-border-image: linear-gradient(135deg, #02aab0, #64ffda);
-  border-image: linear-gradient(135deg, #02aab0, #64ffda);
+  -o-border-image: linear-gradient(135deg, #02aab0, #42b49a);
+  border-image: linear-gradient(135deg, #02aab0, #42b49a);
   border-image-slice: 1;
   cursor: pointer;
   font-size: 1rem;
@@ -126,8 +137,9 @@ h6 {
   font-family: "Montserrat", sans-serif;
   margin-top: 1rem;
 }
+
 .theme-btn:hover {
-  background-image: linear-gradient(135deg, #02aab0, #64ffda);
+  background-image: linear-gradient(135deg, #02aab0, #42b49a);
   border-radius: 0;
   color: white;
   transition: all 0.3s ease-in;
@@ -162,7 +174,7 @@ h6 {
   width: 1px;
   height: 90px;
   margin: 0px auto;
-  background-color: #c0c2c9;
+  background-color: #64ffda;
 }
 
 .social-icons li a:hover {
@@ -177,17 +189,38 @@ h6 {
 }
 
 .social-icons-wrapper {
-  width: 40px;
   position: fixed;
   bottom: 0px;
-  right: 40px;
+  right: auto;
+  left: 50px;
+  z-index: 10;
+  text-align: right;
+
+}
+
+.up-arrow-wrapper {
+  position: fixed;
+  bottom: 1rem;
+  right: 4rem;
   left: auto;
   z-index: 10;
+  border: 1px solid #64ffda;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  text-align: center;
+}
+
+.up-arrow-wrapper:hover{
+  cursor: pointer;
+  background-color: #64ffdb34;
 }
 
 .fa-github,
 .fa-linkedin {
   font-size: 1.3rem;
+
 }
 
 .sectionNum {
@@ -197,6 +230,11 @@ h6 {
   margin-right: 5px;
   font-weight: 500;
   color: rgb(100, 255, 218);
+}
+
+#up-arrow {
+  font-size: 1rem;
+  color: #64ffda;
 }
 
 /* ABOUT SECTION */
@@ -396,10 +434,12 @@ h6 {
   color: #c0c2c9;
   font-weight: 700;
   font-size: 2.5rem;
+  padding-top: 2rem;
 }
 
 .otherProjs {
-  margin: 40px auto;
+  margin: 0 auto;
+  padding-top: 10%;
   justify-content: space-between;
 }
 
@@ -408,7 +448,7 @@ h6 {
   padding: 50px 25px;
   width: 31%;
   border-radius: 5px;
-  box-shadow: 10px 10px #64ffda;
+  box-shadow: 0 10px 20px -15px rgba(100, 255, 218, 0.7);
 }
 
 .otherTitle {
@@ -423,33 +463,33 @@ h6 {
   font-size: 14px;
 }
 
-.volunteer-desc{
+.volunteer-desc {
   color: #c0c2c9;
   padding-top: 1.5rem;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
 
-.other-tech-list{
+.other-tech-list {
   list-style-type: none;
   color: #c0c2c9;
   padding: 0;
   display: inline;
 }
 
-.other-tech-list li{
+.other-tech-list li {
   display: inline-flex;
   margin-right: 15px;
   font-family: "Roboto Mono", monospace;
   font-size: 13px;
 }
 
-.other-tech{
+.other-tech {
   margin-bottom: 10px;
   padding-bottom: 1rem;
 }
 
-.otherProjLinks a{
+.otherProjLinks a {
   color: #64ffda;
 }
 
@@ -460,7 +500,8 @@ h6 {
   font-weight: 300;
   text-align: center;
   padding: 2rem 1rem;
-  line-height: 1.75;
+  line-height: 2;
+  padding-top: 15%;
 }
 
 .contact-wrapper {
@@ -481,6 +522,9 @@ h6 {
 .copyright {
   color: #c0c2c9;
   padding: 5px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .footer {
@@ -519,12 +563,20 @@ h6 {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   .hero {
-    padding-left: 5vw;
+    padding-left: 6rem;
   }
 
   .hero-title {
     font-size: 3.5rem;
+  }
+
+  .social-icons-wrapper {
+    left: 7.5em;
+  }
+
+  .up-arrow-wrapper{
+    right: 8em;
   }
 }

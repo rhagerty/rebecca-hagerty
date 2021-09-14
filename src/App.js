@@ -6,13 +6,13 @@ import LandingPage from "./LandingPage";
 import About from "./About";
 import Experience from "./Experience";
 import Contact from "./Contact";
-
+import StickyRightNav from "./components/StickyRightNav";
 import "./App.css";
 
 function App() {
   return (
     <Router>
-      <div className="container">
+      <div className="app container">
         <Navbar />
         <StickyLeftNav />
         <Switch>
@@ -29,6 +29,7 @@ function App() {
             <Experience />
           </Route>
         </Switch>
+        <StickyRightNav/>
       </div>
     </Router>
   );

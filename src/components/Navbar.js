@@ -16,31 +16,31 @@ const ExampleNavbar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="main-navbar">
       <Navbar expand="lg">
         <NavbarBrand href="/">
           <img src={logo} id="logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav navbar>
+          <Nav navbar >
             <NavItem>
-              <NavLink href="/about">
+              <NavLink href="#about">
                 <span className="navNum"> 01.</span> About
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/experience">
+              <NavLink href="#experience">
                 <span className="navNum"> 02.</span> Experience
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/work">
+              <NavLink href="#work">
                 <span className="navNum"> 03.</span> Work
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">
+              <NavLink href="#contact">
                 <span className="navNum"> 04.</span> Contact
               </NavLink>
             </NavItem>
