@@ -16,6 +16,7 @@ const ExampleNavbar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
+    
     <div className="main-navbar">
       <Navbar expand="lg">
         <NavbarBrand href="/">

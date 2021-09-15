@@ -1,0 +1,15 @@
+.sticky {
+  display: grid;
+  align-content: space-between;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.hideHeight {
+  left: 65vw;
+}
+
+.hideOnHeight {
+  left: 18vw;
+  bottom: 85vh;
+}

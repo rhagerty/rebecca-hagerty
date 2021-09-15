@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Fade from "react-reveal/Fade";
-import kwm from "./images/kwm.svg";
-import mint from "./images/mint.jpg";
+import kwm2 from "./images/kwm.jpg";
 import MSS from "./images/MSS.jpg";
 import TaskPlanner from "./images/TaskPlanner.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { Row, Col } from "reactstrap";
 
 function Work() {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -39,10 +39,10 @@ function Work() {
           delay={1000}
           distance="30px"
         >
-          <div className="col-lg-8 project-content">
+          <div className="col-lg-8 col-md-10 col-sm-10 col-xs-12 project-content">
             <p className="subtitle">Featured Project</p>
             <h2 className="projectTitle">
-              Neurodivergent Task Planner Web App
+              Task Planner Web App
             </h2>
             <div className="projDescription">
               <p className="projectP">
@@ -81,7 +81,7 @@ function Work() {
       <div className="row projMain">
         <Fade bottom duration={1000} delay={600} distance="30px">
           <div className="col project-image">
-            <img src={kwm} className="workImage" />
+            <img src={kwm2} className="workImage" />
           </div>
         </Fade>
         <Fade
@@ -91,7 +91,7 @@ function Work() {
           delay={1000}
           distance="30px"
         >
-          <div className="col-lg-8 project-content">
+          <div className="col-lg-8 col-md-10 col-sm-10 col-xs-12 project-content">
             <p className="subtitle">Featured Project</p>
             <h2 className="projectTitle">Accounting Firm Website</h2>
             <div className="projDescription">
@@ -136,7 +136,7 @@ function Work() {
           delay={1000}
           distance="30px"
         >
-          <div className="col-lg-8 project-content">
+          <div className="col-lg-8 col-md-10 col-sm-10 col-xs-12 project-content">
             <p className="subtitle">Featured Project</p>
             <h2 className="projectTitle">Online Solar Store</h2>
             <div className="projDescription">
@@ -170,12 +170,12 @@ function Work() {
         left={isDesktop}
         bottom={isMobile}
         duration={1000}
-        delay={1000}
+        delay={300}
         distance="30px"
       >
         <h4 className="notable">Other Notable Projects</h4>
-        <div className="row otherProjs">
-          <div className="col-md-4 col-sm-12 otherCol">
+        <Row className="otherProjs">
+          <Col lg="4" md="6" xs="12" className="otherCol">
             <p className="otherFlag">Volunteer Project</p>
             <h5 className="otherTitle">Website Redevelopment</h5>
             <p className="volunteer-desc">
@@ -195,8 +195,9 @@ function Work() {
                 <FontAwesomeIcon icon={faExternalLinkAlt} />
               </a>
             </div>
-          </div>
-          <div className="col-md-4 col-sm-12 otherCol">
+          </Col>
+
+          <Col lg="4" md="6" xs="12" className="otherCol">
             <p className="otherFlag">Web App</p>
             <h5 className="otherTitle">"Your Personal Mixologist"</h5>
             <p className="volunteer-desc">
@@ -219,8 +220,8 @@ function Work() {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
-          </div>
-          <div className="col-md-4 col-sm-12 otherCol">
+          </Col>
+          <Col lg="4" md="6" xs="12" className="otherCol">
             <p className="otherFlag">Volunteer Project</p>
             <h5 className="otherTitle">Animal Shelter Website Page Template</h5>
 
@@ -238,9 +239,8 @@ function Work() {
                 <li>Bootstrap</li>
               </ul>
             </div>
-            
-          </div>
-        </div>
+          </Col>
+        </Row>
       </Fade>
     </div>
   );

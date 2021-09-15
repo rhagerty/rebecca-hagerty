@@ -13,7 +13,8 @@ function App() {
   return (
     <Router>
       <div className="app container">
-        <Navbar />
+      <Navbar/>
+
         <StickyLeftNav />
         <Switch>
           <Route path="/">
@@ -29,7 +30,7 @@ function App() {
             <Experience />
           </Route>
         </Switch>
-        <StickyRightNav/>
+        <StickyRightNav />
       </div>
     </Router>
   );
