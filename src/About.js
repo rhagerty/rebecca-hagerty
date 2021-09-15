@@ -44,7 +44,7 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   Hi! I'm Becca -- your friendly neighborhood computer nerd and
-                  self proclaimed idea machine. My fascination with technology,
+                  self-proclaimed idea machine. My fascination with technology,
                   computers, and coding began before I can remember. As a
                   preteen, I dabbled with HTML styling for my social media pages
                   (LiveJournal or Myspace anyone?) and was an avid video gamer.
