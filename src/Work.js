@@ -111,6 +111,7 @@ function Work() {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Bootstrap</li>
+                <li>Illustrator</li>
               </ul>
             </div>
             <div className="projLinks">
@@ -155,6 +156,7 @@ function Work() {
                 <li>JavaScript</li>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>Illustrator</li>
               </ul>
             </div>
             <div className="projLinks">

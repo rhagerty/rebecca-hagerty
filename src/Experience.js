@@ -33,6 +33,7 @@ export default function Experience() {
             <Badge>JS</Badge>
             <Badge>HTML</Badge>
             <Badge>CSS</Badge>
+            <Badge>Illustrator</Badge>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
