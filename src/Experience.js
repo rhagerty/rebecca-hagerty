@@ -37,10 +37,10 @@ export default function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "#30CBB4", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #30CBB4" }}
+          contentStyle={{ background: "#1BCCB4", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #1BCCB4" }}
           date="June 2021 - Sept 2021"
-          iconStyle={{ background: "#30CBB4", color: "#fff" }}
+          iconStyle={{ background: "#1BCCB4", color: "#fff" }}
           icon={<FontAwesomeIcon icon={faWordpress} />}
         >
           <h3 className="vertical-timeline-element-title">
@@ -62,9 +62,9 @@ export default function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="May 2021 - Sept 2021"
-          iconStyle={{ background: "#60C8BB", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #60C8BB" }}
-          contentStyle={{ background: "#60C8BB", color: "#fff" }}
+          iconStyle={{ background: "#35CBBB", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #35CBBB" }}
+          contentStyle={{ background: "#35CBBB", color: "#fff" }}
           icon={<FontAwesomeIcon icon={faWordpress} />}
         >
           <h3 className="vertical-timeline-element-title">Website Developer</h3>
@@ -80,9 +80,9 @@ export default function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element"
           date="March 2021 - Sept 2021"
-          iconStyle={{ background: "#78C7BF", color: "#fff", paddingLeft: "6px"  }}
-          contentStyle={{ background: "#78C7BF", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #78C7BF" }}
+          iconStyle={{ background: "#42CBBF", color: "#fff", paddingLeft: "6px"  }}
+          contentStyle={{ background: "#42CBBF", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #42CBBF" }}
           icon={<FontAwesomeIcon icon={faHtml5} />}
         >
           <h3 className="vertical-timeline-element-title">Software Engineer</h3>
@@ -101,9 +101,9 @@ export default function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element"
           date="June 2017 - April 2019"
-          contentArrowStyle={{ borderRight: "7px solid  #84C6C1" }}
-          contentStyle={{ background: "#84C6C1", color: "#fff" }}
-          iconStyle={{ background: "#84C6C1", color: "#fff", paddingLeft: "8px" }}
+          contentArrowStyle={{ borderRight: "7px solid  #69C9CA" }}
+          contentStyle={{ background: "#69C9CA", color: "#fff" }}
+          iconStyle={{ background: "#69C9CA", color: "#fff", paddingLeft: "8px" }}
           icon={<FontAwesomeIcon icon={faFileExcel} />}
         >
           <h3 className="vertical-timeline-element-title">Process Engineer</h3>

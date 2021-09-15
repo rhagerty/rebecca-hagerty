@@ -26,7 +26,7 @@ const Contact = () => {
             left={isDesktop}
             bottom={isMobile}
             duration={1000}
-            delay={1000}
+            delay={500}
             distance="30px"
           >
             <p className="contact-wrapper__info-text">
