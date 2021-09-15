@@ -242,9 +242,10 @@ h6 {
 
 /* ABOUT SECTION */
 #about {
-  background-color: rgba(105, 201, 202, 0.8);
+  background-color: #02aab066;
   color: white;
   border-top: 0px;
+  border-radius: 5px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   padding-bottom: 15%;
