@@ -723,4 +723,12 @@ max-height: 60vh;
   .up-arrow-wrapper {
     right: 6em;
   }
+
+  #logo{
+    width: 60px;
+  }
+
+  .nav-link{
+    font-size: 14px;
+  }
 }
