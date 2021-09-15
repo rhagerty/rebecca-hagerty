@@ -701,7 +701,7 @@ max-height: 60vh;
   }
 
   .hero {
-    padding-left: 6rem;
+    padding-left: 5rem;
   }
 
 }
@@ -709,7 +709,7 @@ max-height: 60vh;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .hero {
-    padding-left: 6rem;
+    padding-left: 5rem;
   }
 
   .hero-title {
