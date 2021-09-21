@@ -54,8 +54,8 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   Fast forward to today, I have designed and developed numerous
-                  apps and websites. I've focused my education and my work on
-                  responsive development and accessible design. I'm an avid
+                  apps and websites. I've focused efforts on
+                  responsive development and accessible design. It's important to me to give all users the same experience, regardless of ability. I'm also an avid
                   researcher, which allows me to more deeply understand my
                   audience (or the problem) and provide a unique solution.
                 </p>
