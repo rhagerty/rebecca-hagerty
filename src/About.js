@@ -51,22 +51,14 @@ const About = () => {
             >
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                Hi! I'm Becca, a resident computer nerd, and self-proclaimed idea machine. My fascination with technology,
-                  computers, and coding began before I can remember. As a
-                  preteen, I dabbled with HTML styling for my social media pages
-                  (LiveJournal or Myspace anyone?) and was an avid video gamer.
-                  It didn't take long before I discovered the kismet connection between my technical brain and computer savvy and made the decision to pursue software engineering.
+                I am a creative full-stack developer, engineer, and graphic designer based in Detroit, Michigan. My place in the world seems to be at the intersection of creativity and logic. All projects are a problem to be solved, whether it’s to do with design or code—only the tools change. My process is iterative; I approach each problem as a learning experience that informs the rest of the project. My love for research and gathering data is only bounded by my shared love for watching a project come to life on the screen. 
                 </p>
                 <p className="about-wrapper__info-text">
-                Fast forward to today, I have designed and developed numerous apps and websites. I've focused my specialization on responsive development and accessible design. It's important to me to give all users the same experience, regardless of ability. I'm also an avid
-                  researcher, which allows me the develop a deep understanding of the
-                  audience (and the problem) and provide a unique solution.
+                My career path has provided me the opportunity to seamlessly combine my personal values of community, inclusivity, and enacting positive social change with my work. I build websites for nonprofits, mentor teen girls going into STEM, and am passionate about removing the barriers between “design” and “accessible design” (<b>all</b> design should be accessible!).
+
                 </p>
                 <p className="about-wrapper__info-text">
-                Outside of programming, I have a 1-year-old cat named Moosh (who also took a natural liking to computers) and am an avid traveler and nature enthusiast. I am a very community-oriented person and like to utilize my skillset to support local organizations. I volunteer and mentor young women in STEM on a regular basis. While I am an advocate
-                  for many causes, my primary focuses are human rights,
-                  community aid, and environmentalism. I'm currently developing a WordPress template for animal rescue shelters to use on their websites
-                  for embedded affiliate links (for additional passive fundraising). I'm looking to further develop my skillset at a company that shares my values for making a positive impact.
+                Whether the internet or the outdoors, I love exploring and traveling to new places with my cat, Moosh (she also really loves computers). I live my life with open-mindedness and wide-eyed creativity. I am always experimenting, always learning, and never bored.
                 </p>
               </div>
             </Fade>
