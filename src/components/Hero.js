@@ -39,7 +39,7 @@ function Hero() {
             </span>
           </h1>
           <p className="heroP">
-            I’m a software engineer specializing in researching, building (and occasionally
+            I’m a software engineer and data analyst specializing in researching, building (and occasionally
             designing) exceptional digital experiences. Currently, I’m focused
             on building accessible, human-centered solutions with a positive societal impact.
           </p>
