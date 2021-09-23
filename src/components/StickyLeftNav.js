@@ -13,17 +13,17 @@ function StickyLeftNav() {
         <div className="social-icons-wrapper">
           <ul className="social-icons">
             <li>
-              <Link to="https://github.com/rhagerty">
+              <Link href="https://github.com/rhagerty">
                 <FontAwesomeIcon icon={faGithub} />
               </Link>
             </li>
             <li>
-              <Link to="https://www.linkedin.com/in/hagertyrebecca">
+              <Link href="https://www.linkedin.com/in/hagertyrebecca">
                 <FontAwesomeIcon icon={faLinkedin} />
               </Link>
             </li>
             <li>
-              <Link to="mailto:rhagertydevelopment@gmail.com">
+              <Link href="mailto:rhagertydevelopment@gmail.com">
                 rhagertydevelopment@gmail.com
               </Link>
             </li>
