@@ -551,6 +551,10 @@ h6 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  .moosh{
+    max-width: 150px;
+  }
   .projDescription {
     margin-top: 1.1rem;
   }
