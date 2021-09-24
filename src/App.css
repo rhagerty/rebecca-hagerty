@@ -1,6 +1,6 @@
 /* GLOBAL STYLES */
 body {
-  background-color: rgb(5, 17, 34);
+  background-color: #051122;
 }
 
 .app {
@@ -547,6 +547,21 @@ h6 {
 
 .credits {
   text-align: center;
+}
+
+@keyframes rotation{
+  from{
+    transform:rotate(0deg);
+  }
+
+  to{
+    transform:rotate(360deg);
+  }
+}
+.rotate{
+  width:80px;
+  height:80px;
+  animation: rotation infinite 3s linear;
 }
 
 /* Extra small devices (phones, 600px and down) */
