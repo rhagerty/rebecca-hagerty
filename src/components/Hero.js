@@ -43,6 +43,7 @@ function Hero() {
             designing) exceptional digital experiences. Currently, I’m focused
             on building accessible, human-centered solutions with a positive societal impact.
           </p>
+
         </Fade>
         <Fade
           left={isDesktop}
