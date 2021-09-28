@@ -688,7 +688,10 @@ h6 {
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
-  /* ABOUT SECTION */
+  #name {
+    display: none;
+  }
+
   #about {
     max-width: 700px;
   }

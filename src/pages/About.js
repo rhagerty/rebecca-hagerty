@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Fade from "react-reveal/Fade";
 import { Container, Row, Col } from "react-bootstrap";
-import Img from "./images/me.jpg";
-import moosh from "./images/moosh1.jpg";
-import moosh2 from "./images/moosh2.jpg";
-import moosh3 from "./images/moosh3.jpg";
+import Img from "../images/me.jpg";
+import moosh from "../images/moosh1.jpg";
+import moosh2 from "../images/moosh2.jpg";
+import moosh3 from "../images/moosh3.jpg";
 
 const About = () => {
   const [isDesktop, setIsDesktop] = useState(false);

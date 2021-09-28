@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Fade from "react-reveal/Fade";
-import kwm2 from "./images/kwm.jpg";
-import MSS from "./images/MSS.jpg";
-import TaskPlanner from "./images/TaskPlanner.jpg";
+import kwm2 from "../images/kwm.jpg";
+import MSS from "../images/MSS.jpg";
+import TaskPlanner from "../images/TaskPlanner.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
