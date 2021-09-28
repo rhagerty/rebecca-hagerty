@@ -47,11 +47,11 @@ function Work() {
             <div className="projDescription">
               <p className="projectP">
                 I developed a scheduling/task management web application with
-                special options designed{" "}
+                special accommodations designed{" "}
                 <span className="emphasis">
-                  to better accommodate neurodivergent users.
+                  to provide enhanced accessibility for neurodivergent users.
                 </span>{" "}
-                I utilized 2 REST APIs and 0Auth authentication for this
+                I utilized 2 REST APIs and OAuth authentication for this
                 application.
               </p>
             </div>
@@ -66,7 +66,7 @@ function Work() {
                 <li>Bootstrap</li>
                 <li>MongoDB</li>
                 <li>REST API</li>
-                <li>0Auth</li>
+                <li>OAuth</li>
               </ul>
             </div>
             <div className="projLinks">

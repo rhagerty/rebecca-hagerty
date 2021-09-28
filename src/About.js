@@ -58,7 +58,7 @@ const About = () => {
 
                 </p>
                 <p className="about-wrapper__info-text">
-                Whether the internet or the outdoors, I love exploring and traveling to new places with my cat, Moosh (she also really loves computers). I live my life with open-mindedness and wide-eyed creativity. I am always experimenting, always learning, and never bored.
+                Whether the internet or the outdoors, I love exploring and traveling to new places with my cat, Moosh (she also really loves computers). I live my life with open-mindedness and wide-eyed curiosity. I am always experimenting, always learning, and never bored.
                 </p>
               </div>
             </Fade>
