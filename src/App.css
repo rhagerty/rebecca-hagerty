@@ -24,9 +24,8 @@ body {
 
 #name {
   max-width: 450px;
-margin-left: 350px;
+  margin-left: 350px;
   position: absolute;
-
 }
 
 /* Navigation */
@@ -97,7 +96,7 @@ margin-left: 350px;
 }
 
 .hero {
-  margin: 15vh 3rem;
+  margin: 15vh 1rem;
 }
 
 .heroP {
@@ -751,7 +750,6 @@ h6 {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
   .hero-title {
     font-size: 3.5rem;
   }
