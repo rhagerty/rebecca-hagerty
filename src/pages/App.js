@@ -7,7 +7,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Contact from "./Contact";
 import StickyRightNav from "../components/StickyRightNav";
-import "./App.css";
+import "../App.css";
 
 function App() {
   return (
