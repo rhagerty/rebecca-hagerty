@@ -19,7 +19,7 @@ const ExampleNavbar = (props) => {
     
     <div className="main-navbar">
       <Navbar expand="lg">
-        <NavbarBrand href="/">
+        <NavbarBrand href="/rebecca-hagerty">
           <img src={logo} id="logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
