@@ -9,11 +9,11 @@ function StickyRightNav() {
   return (
     <HideBetween height startHeight={0} endHeight={400}>
       <div className={classNames(styles.hideHeight, styles.sticky)}>
-        <div className="up-arrow-wrapper">
-          <a href="#logo">
+        <a href="#logo">
+          <div className="up-arrow-wrapper">
             <FontAwesomeIcon icon={faArrowUp} id="up-arrow" />
-          </a>
-        </div>
+          </div>{" "}
+        </a>
       </div>
     </HideBetween>
   );
