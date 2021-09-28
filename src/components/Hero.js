@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 // reactstrap components
 import { Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
-
+import name from "../images/name.svg"
 // core components
 
 function Hero() {
@@ -33,6 +33,7 @@ function Hero() {
           <span className="title-intro">{"Hi! My name is"} </span>
           <h1 className="hero-title">
             {"Becca Hagerty."}
+            <img src={name} id="name"/>
             <br />
             <span className="text-color-main">
               {"I build things for computers."}

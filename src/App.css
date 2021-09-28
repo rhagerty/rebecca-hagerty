@@ -22,11 +22,11 @@ body {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 10, 0.5);
 }
 
-#name{
-  position: absolute;
+#name {
   max-width: 500px;
-  right: 0;
-  top: 25%;
+margin-left: 300px;
+  position: absolute;
+
 }
 
 /* Navigation */
@@ -556,25 +556,27 @@ h6 {
   text-align: center;
 }
 
-@keyframes rotation{
-  from{
-    transform:rotate(0deg);
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
   }
 
-  to{
-    transform:rotate(360deg);
+  to {
+    transform: rotate(360deg);
   }
 }
-.rotate{
-  width:80px;
-  height:80px;
+.rotate {
+  width: 80px;
+  height: 80px;
   animation: rotation infinite 3s linear;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-  .moosh{
+  #name {
+    display: none;
+  }
+  .moosh {
     max-width: 150px;
   }
   .projDescription {
@@ -655,6 +657,9 @@ h6 {
 
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (min-width: 600px) and (max-width: 900px) {
+  #name {
+    display: none;
+  }
   .social-icons-wrapper {
     display: none;
   }
@@ -743,9 +748,7 @@ h6 {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .hero {
-    padding-left: 4rem;
-  }
+
 
   .hero-title {
     font-size: 3.5rem;
